@@ -1,0 +1,258 @@
+.content-foot-box {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    border-top: 1px solid #f4f4f4;
+    z-index: 999;
+}
+
+.content-foot {
+    width: 6.9rem;
+    margin: 10px auto;
+}
+
+.content-foot ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.content-foot ul li {
+    line-height: 0.24rem;
+    text-align: center;
+}
+
+.content-foot ul li a {
+    color: #666666;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.content-foot ul li img {
+    width: 20px;
+    height: 20px;
+}
+
+.content-foot ul li span {
+    display: block;
+    margin-top: 3px;
+}
+
+.content-foot ul li .active {
+    color: #38a1f3;
+}
+
+.content .bags {
+    background: none;
+}
+
+.content .bags .content-foot {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.flex-top-black {
+    background: #1a99f2;
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.flex-top-black .flex-left-img {
+    position: absolute;
+    width: 0.6rem;
+    left: 0.4rem;
+    bottom: 0.18rem;
+}
+
+.flex-top-black span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.32rem;
+    line-height: 1rem;
+}
+
+.flex-js {
+    left: 50%;
+    margin-left: -3.45rem;
+    width: 6.9rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .container .content {
+        padding-top: 15px;
+        padding-bottom: 0.7rem;
+    }
+
+    .self-container .content {
+        padding-top: 15px;
+        padding-bottom: 0.7rem;
+        background-color: #f4f4f4;
+    }
+
+    .content-foot {
+        border: 1px solid #dedede;
+    }
+
+    .content-foot ul {
+        margin-top: 3px;
+    }
+
+    .itemList ul {
+        padding: 0 100px;
+    }
+    .content-foot-box {
+        border-top: none;
+    }
+    .content-box .content-box-paddin .content-middle .middle-text .text-ul ul li span img {
+        padding: unset;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    /*首页底部*/
+    .content-middle .middle .select .select-foot li {
+        height: 0.85rem;
+        font-size: 0.25rem;
+    }
+
+    .content-middle .middle .select .select-foot li i {
+        width: 0.33rem;
+        height: 0.33rem;
+        top: 30%;
+    }
+
+    .content-middle .middle .select .select-number {
+        font-size: 0.25rem;
+    }
+
+    /*首页通知*/
+    .content-middle .middle .notice ul {
+        margin-bottom: 0;
+    }
+
+    .content-middle .middle .notice ul li {
+        height: 0.7rem;
+        padding-top: 0.2rem;
+    }
+
+    .content-middle .middle .notice ul li .rightN {
+        top: 0.2rem;
+        border-radius: 3px;
+        line-height: 17px;
+    }
+
+    .content-foot {
+        margin: 5px auto;
+    }
+
+    .itemList ul {
+        padding: 0 10px 0 12px;
+    }
+
+    .itemList ul li div {
+        margin: 0 -2px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    /*首页底部*/
+    .content-middle .middle .select .select-foot li {
+        height: 0.85rem;
+        font-size: 0.25rem;
+    }
+
+    .content-middle .middle .select .select-foot li i {
+        width: 0.33rem;
+        height: 0.33rem;
+        top: 30%;
+    }
+
+    .content-middle .middle .select .select-number {
+        font-size: 0.25rem;
+    }
+
+    /*首页通知*/
+    .content-middle .middle .notice ul {
+        margin-bottom: 0;
+    }
+
+    .content-middle .middle .notice ul li {
+        height: 0.7rem;
+        padding-top: 0.2rem;
+        font-size: 0.25rem;
+    }
+
+    .content-middle .middle .notice ul li .rightN {
+        top: 0.2rem;
+        border-radius: 3px;
+        line-height: 17px;
+    }
+
+    .content-foot {
+        margin: 5px auto;
+    }
+
+    .itemList ul {
+        padding: 0 35px;
+    }
+
+    .itemList ul li div {
+        margin: 0 -1px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .itemList ul {
+        padding: 0 29px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    /*首页底部*/
+    .content-middle .middle .select .select-foot li {
+        height: 0.85rem;
+    }
+
+    .content-middle .middle .select .select-foot li i {
+        top: 28%;
+    }
+
+    .content-middle .middle .select .select-number {
+        font-size: 0.2rem;
+    }
+
+    /*首页通知*/
+    .content-middle .middle .notice ul {
+        margin-bottom: 0;
+    }
+
+    .content-middle .middle .notice ul li {
+        height: 0.7rem;
+        padding-top: 0.2rem;
+    }
+
+    .content-middle .middle .notice ul li .rightN {
+        width: 0.32rem;
+        height: 0.32rem;
+        top: 0.2rem;
+        border-radius: 3px;
+        line-height: 0.33rem;
+    }
+
+    .content-foot {
+        margin: 5px auto;
+    }
+
+    .itemList ul {
+        padding: 0 10px;
+    }
+    .itemList ul li div {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,200 @@
+.wrapper{
+    width: 100%;
+    background: url("../../image/我的背景.png") no-repeat;
+    background-size: cover;
+}
+.userInfo{
+    display: flex;
+    width: 6.9rem;
+    height: 2.55rem;
+    background: #fff;
+    border-radius: 0.1rem;
+    margin: 0.2rem auto 0;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+.userInfo .left{
+    position: relative;
+    width: 2.4rem;
+    height: 100%;
+}
+.userInfo .left::after{
+    content: "";
+    position: absolute;
+    top: 0.3rem;
+    right: 0;
+    height: 2rem;
+    border-left: 1px solid #eee;
+}
+.userInfo .left p{
+    text-align: center;
+    font-size: 0.28rem;
+    color: rgb(102,102,102);
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.userInfo .left .img{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0.15rem auto 0.1rem;
+    border-radius: 50%;
+    background: cornflowerblue;
+}
+.userInfo .right{
+    width: 4.5rem;
+    height: 100%;
+}
+.top{
+    overflow: auto;
+}
+.top ul{
+    margin-top: 0.55rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+.top ul li{
+    width: 1.6rem;
+    font-size: 0.28rem;
+    color: rgb(102,102,102);
+}
+.top ul li p{
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.top ul li:nth-of-type(1){
+    margin-right: 0.3rem;
+}
+.top ul li p:nth-of-type(1){
+    font-size: 0.24rem;
+    margin-bottom: 0.1rem;
+}
+.bottom a{
+    color: #ffffff;
+}
+.bottom a:active, a:focus {
+    color: #ffffff!important;
+    text-decoration: none!important;
+}
+.bottom ul{
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+}
+.bottom ul li{
+    width: 1.2rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background: #1A99F2;
+    border-radius: 0.1rem;
+    margin-left: 0.2rem;
+    color: #fff;
+    font-size: 0.24rem;
+}
+.itemList{
+    width: 6.9rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    margin: 0.2rem auto 0;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+.itemList ul{
+    display: inline-table;
+}
+.itemList ul li {
+    /*float: left;*/
+    display: inline-block;
+    padding: 10px 10px 0 10px;
+    list-style-type: none;
+}
+.itemList ul li div{
+    width: 1rem;
+    height: 1rem;
+    margin: 0 -1px;
+}
+.itemList ul li div img{
+    width: 100%;
+}
+.itemList ul li p{
+    text-align: center;
+    margin-top: 0.1rem;
+    font-size: 0.2rem;
+    color: rgb(102,102,102);
+    margin-bottom: 0;
+}
+.manage{
+    display: table;
+    width: 6.9rem;
+    border-radius: 0.1rem;
+    background: #fff;
+    margin: 0.2rem auto 0;
+    box-shadow: 0 0 2px 0 #ccc;
+}
+.manageTitle{
+    font-size:0.3rem;
+    color: rgb(102,102,102);
+    text-align: center;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-weight: bold;
+}
+.manageBox{
+    width: 6.34rem;
+    margin: 0 auto;
+}
+.group{
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+}
+.group .group_center{
+    font-size: 0.25rem;
+    margin-left:0.1rem;
+    flex: 1;
+}
+.group img{
+    width: 0.4rem;
+    display: block;
+}
+.loginout{
+    width: 6.5rem;
+    height: 0.8rem;
+    margin: 10px auto 20px auto;
+    border: 1px solid rgb(62, 169, 224);
+    border-radius: 0.4rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+}
+.menu-block {
+    width: 90%;
+    margin: 0 auto;
+}
+.menu-block-item {
+    padding: 10px 10px 0 10px;
+    display: inline-block;
+    float: left;
+}
+.menu-block p {
+    text-align: center;
+}
+.click-login {
+    width: 1.2rem;
+    height: 0.6rem;
+    text-align: center;
+    line-height: 0.6rem;
+    background-color: #1A99F2;
+    border-radius: 0.1rem;
+    color: #fff;
+    margin: 0 auto;
+    font-size: 0.24rem;
+}
+.click-login a {
+    color: #fff;
+}

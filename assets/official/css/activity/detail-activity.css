@@ -1,0 +1,46 @@
+.container {
+  background: #f4f4f4;
+}
+.content {
+  background: #f4f4f4;
+  overflow: hidden;
+}
+.activity-detail {
+  width: 6.9rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  margin: 1.6rem auto 0.5rem;
+  box-shadow: 1px 2px 12px #d0d0d0;
+  padding: 0.2rem;
+  box-sizing: border-box;
+}
+.activity-detail .detail-header {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 0.12rem;
+}
+.activity-detail .detail-header p {
+  font-size: 0.3rem;
+  color: #666666;
+  padding: 0.1rem 0;
+}
+.activity-detail .detail-header span {
+  font-size: 0.15rem;
+  color: #999999;
+}
+.activity-detail .detail-img {
+  padding-top: 0.25rem;
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #efefef;
+}
+.activity-detail .detail-img img {
+  width: 100%;
+  height: 3rem;
+  background: aqua;
+  display: inline-block;
+}
+.activity-detail .detail-text {
+  padding-top: 0.2rem;
+  font-size: 0.18rem;
+  color: #666666;
+  line-height: 0.32rem;
+}

@@ -1,0 +1,55 @@
+<style>
+    .plugin-game-img {
+        width: 50px;position: fixed;top: 30%;right: 10px;z-index: 2;cursor: pointer;
+    }
+    .plugin-game-trigger {
+        position: relative;float: right;width: 100%;
+    }
+    .plugin-game-trigger img {
+        width: 150px;
+    }
+</style>
+<div class="plugin-game-img">
+    <img class="plugin-game-trigger" src="{$static}/images/0.gif" alt="share-img">
+</div>
+<script>
+    $(".plugin-game-img").click(function () {
+        location.href = '{$location_url}';
+    });
+
+    $(document).ready(function () {
+        let gif_img = Math.floor((Math.random() * 10));
+        if (gif_img > 7) {
+            gif_img = 7;
+        }
+        $('.plugin-game-img img').attr('src', '{$static}/images/' + gif_img + '.gif');
+
+        const main = {
+            is_time_out: false,
+            animate: function () {
+                const that = this;
+                if (that.is_time_out) return false;
+
+                that.is_time_out = true;
+                setTimeout(function () {
+                    $('.plugin-game-img').animate({
+                        'right': -30
+                    }, function () {
+                        that.is_time_out = false;
+                    });
+                }, 2000);
+            }
+        }
+
+        main.animate();
+
+        $(document).scroll(function () {
+            if (main.is_time_out) return false;
+            $('.plugin-game-img').animate({
+                'right': 10
+            }, function () {
+                if (!main.is_time_out) main.animate();
+            });
+        });
+    });
+</script>

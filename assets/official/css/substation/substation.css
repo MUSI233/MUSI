@@ -1,0 +1,139 @@
+.container {
+  background: url(../../image/beijing@2x.png) no-repeat;
+  background-size: contain;
+  margin-bottom: 60px;
+}
+.content {
+  padding-top: 0.5rem;
+}
+.content-box {
+  width: 6.9rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  margin: 0 auto;
+}
+.content-box .content-box-paddin {
+  width: 6.5rem;
+  margin: 0 auto;
+  padding-top: 0.2rem;
+}
+.content-box .content-box-paddin .content-top-banner {
+  background: url(../../image/substation/Banner@2x.png) no-repeat;
+  height: 3.5rem;
+  background-size: cover;
+  position: relative;
+}
+.content-box .content-box-paddin .content-top-banner .banner-btn {
+  position: absolute;
+  bottom: 0.18rem;
+  left: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.content-box .content-box-paddin .content-top-banner .banner-btn span {
+  width: 2.3rem;
+  height: 0.7rem;
+  color: #666666;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 0.5rem;
+  font-size: 0.26rem;
+  text-align: center;
+  line-height: 0.7rem;
+}
+.content-box .content-box-paddin .content-middle {
+  margin-top: 0.2rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.1rem;
+}
+.content-box .content-box-paddin .content-middle .middle-text {
+  padding: 0.2rem 0.2rem 0 0.2rem;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-header {
+  text-align: center;
+  position: relative;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-header p {
+  font-size: 0.26rem;
+  color: #666666;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-header span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-ul {
+  margin-top: 0.1rem;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-ul ul li {
+  border-top: 1px solid #d0d0d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.08rem 0;
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-ul ul li span {
+  /*font-size: 0.18rem;*/
+}
+.content-box .content-box-paddin .content-middle .middle-text .text-ul ul li span img {
+  width: 30px;
+  padding: 0 0.1rem 0 0.2rem;
+}
+.content-box .content-box-paddin .content-foot-btn {
+  width: 100%;
+  padding-top: 0.3rem;
+}
+.content-box .content-box-paddin .content-foot-btn ul li {
+  text-align: center;
+  padding-bottom: 0.3rem;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .yellow {
+  color: #ff9d34;
+  text-decoration: underline;
+}
+.content-box .content-box-paddin .content-foot-btn ul li p {
+  font-weight: bold;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .foot-span {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .foot-span span {
+  width: 3.1rem;
+  height: 0.5rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.1rem;
+  line-height: 0.5rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-bottom: 0.1rem;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .substation-btn {
+  display: flex;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .substation-btn a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  flex: 1;
+  height: 0.8rem;
+  background: #1a99f2;
+  line-height: 0.8rem;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .substation-btn a:first-of-type {
+  border-radius: 3px;
+}
+.content-box .content-box-paddin .content-foot-btn ul li .substation-btn a:last-of-type {
+  border-radius: 3px;
+}
+#container #iphNotie{
+  margin-top: 0.7rem;
+}

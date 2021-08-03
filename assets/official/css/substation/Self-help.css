@@ -1,0 +1,132 @@
+.container {
+  background: #f4f4f4;
+}
+.content {
+  background: #f4f4f4;
+  overflow: hidden;
+}
+.self-help {
+  width: 6.9rem;
+  border-radius: 0.1rem;
+  margin: 1.6rem auto 0.5rem;
+  box-sizing: border-box;
+}
+.self-help .self-help-header {
+  height: 2rem;
+  background: #fff;
+  border-radius: 0.1rem;
+  font-size: 0.32rem;
+  text-align: center;
+  box-shadow: 1px 2px 12px #d0d0d0;
+}
+.self-help .self-help-header h2 {
+  font-size: 0.5rem;
+  padding: 0.35rem 0;
+}
+.self-help .self-help-content {
+  background: #fff;
+  border-radius: 0.1rem;
+  box-shadow: 1px 2px 12px #d0d0d0;
+  margin-top: 0.2rem;
+}
+.self-help .self-help-content .content-tab {
+  color: #efefef;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  line-height: 1rem;
+  border-bottom: 1px solid #d0d0d0;
+}
+.self-help .self-help-content .content-tab span {
+  font-size: 0.3rem;
+  height: 0.8rem;
+  color: #666666;
+}
+.self-help .self-help-content .content-tab .span-active {
+  border-bottom: 1px solid #1a99f2;
+}
+.self-help .self-help-content .content-viwe {
+  width: 6.5rem;
+  height: 2.2rem;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.1rem;
+  margin: 0.3rem auto;
+}
+.self-help .self-help-content .content-viwe ul {
+  padding-top: 0.15rem;
+}
+.self-help .self-help-content .content-viwe ul li {
+  height: 0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.self-help .self-help-content .content-viwe ul li span {
+  width: 0.96rem;
+  height: 0.4rem;
+  color: #fff;
+  border-radius: 0.2rem;
+  background: #1a99f2;
+  text-align: center;
+  line-height: 0.4rem;
+  font-size: 0.22rem;
+  flex-shrink: 0;
+  margin: 0 0.2rem 0 1.15rem;
+}
+.self-help .self-help-content .content-viwe ul li p {
+  flex: 1;
+  line-height: 0.4rem;
+}
+.self-help .self-help-content .content-viwe ul li .yellow {
+  background: #ff9d34;
+}
+.self-help .self-help-content .content-viwe ul li .errs {
+  background: #de0000;
+}
+.self-help .self-help-content .extension-input {
+  width: 6.5rem;
+  height: 0.6rem;
+  display: flex;
+  border: 1px solid #d0d0d0;
+  border-radius: 0.2rem;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+.self-help .self-help-content .extension-input span {
+  width: 1.6rem;
+  flex-shrink: 0;
+  background: #d0d0d0;
+  height: 0.6rem;
+  font-size: 0.26rem;
+  border-radius: 1px solid #efefef;
+  line-height: 0.6rem;
+  border-radius: 0.2rem 0 0 0.2rem;
+}
+.self-help .self-help-content .extension-input input {
+  flex: 1;
+  border: 0;
+  border-radius: 0.2rem;
+  padding-left: 0.2rem;
+}
+.self-help .self-help-content .extension-input input::placeholder {
+  color: #d0d0d0;
+  text-align: center;
+  padding-left: 1px;
+}
+.self-help .self-help-content .content-btn {
+  width: 6.5rem;
+  height: 0.6rem;
+  margin: 0.2rem auto;
+  padding-bottom: 0.2rem;
+}
+.self-help .self-help-content .content-btn span {
+  height: 0.6rem;
+  width: 100%;
+  display: inline-block;
+  color: #fff;
+  font-size: 0.26rem;
+  background: #1a99f2;
+  border-radius: 0.2rem;
+  line-height: 0.6rem;
+  text-align: center;
+}
